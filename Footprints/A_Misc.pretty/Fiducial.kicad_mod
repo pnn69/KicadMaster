@@ -1,0 +1,18 @@
+(footprint "Fiducial" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61D05E2D)
+  (descr "1mm copper, 2mm soldermask opening (Level A)")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a69cb3a8-b557-4595-af66-a746bc562d99)
+  )
+  (fp_text value "Fiducial" (at 0 2) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2ec94cb4-1f07-4666-a0b3-abab8d14307e)
+  )
+  (fp_circle (center 0 0) (end 1.25 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 2b8bac6a-c40f-49a7-9657-f776f9fcb3e6))
+  (fp_circle (center 0 0) (end 1 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 9978cd8a-2fb5-48a6-a3fc-7b0bc89d2b03))
+  (pad "" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.5) (clearance 0.5) (tstamp b8716f31-7dfb-412a-805d-9c4fb72f8171))
+)
